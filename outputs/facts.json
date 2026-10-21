@@ -1,0 +1,80 @@
+{
+  "topic": "Spotting Fake Internships & Digital Arrest Scams",
+  "grounding_level": "local_source_notes",
+  "facts": [
+    {
+      "fact_id": "F001",
+      "claim": "Online job schemes that promise high earnings for minimal effort are often fraudulent.",
+      "source_id": "S004",
+      "source_url": "https://cybercrime.gov.in/Webform/theme/resources/advisories/ADVISORY%20TAU-ADV-004_Captcha%20Filling%20Fraud_08.04.2025.pdf",
+      "evidence": "Fraudulent online job schemes may promise high earnings for minimal effort.",
+      "topic": "online_job_scam",
+      "verification_status": "matched_to_local_notes"
+    },
+    {
+      "fact_id": "F002",
+      "claim": "Fraudsters may require upfront registration, training, or software fees for online jobs.",
+      "source_id": "S004",
+      "source_url": "https://cybercrime.gov.in/Webform/theme/resources/advisories/ADVISORY%20TAU-ADV-004_Captcha%20Filling%20Fraud_08.04.2025.pdf",
+      "evidence": "Some fraudsters demand registration, training, or software fees upfront.",
+      "topic": "online_job_scam",
+      "verification_status": "matched_to_local_notes"
+    },
+    {
+      "fact_id": "F003",
+      "claim": "Scammers impersonate law‑enforcement or government officials to intimidate victims.",
+      "source_id": "S001",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2020570",
+      "evidence": "Scammers impersonate law-enforcement or government officials.",
+      "topic": "digital_arrest_intimidation",
+      "verification_status": "matched_to_local_notes"
+    },
+    {
+      "fact_id": "F004",
+      "claim": "Impersonators use video calls, threatening messages, and fake official settings to coerce victims.",
+      "source_id": "S001",
+      "source_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2020570",
+      "evidence": "They may use video calls, threatening messages, and fake official settings.",
+      "topic": "digital_arrest_intimidation",
+      "verification_status": "matched_to_local_notes"
+    },
+    {
+      "fact_id": "F005",
+      "claim": "Never share bank information, passwords, OTPs, or credentials with unknown callers.",
+      "source_id": "S002",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280197",
+      "evidence": "Do not share bank information, passwords, OTPs, or credentials with unknown or unverified callers.",
+      "topic": "credential_protection",
+      "verification_status": "matched_to_local_notes"
+    },
+    {
+      "fact_id": "F006",
+      "claim": "Verify suspicious claims through independently obtained official contact details.",
+      "source_id": "S002",
+      "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280197",
+      "evidence": "Verify suspicious claims through independently obtained official contact details.",
+      "topic": "independent_verification",
+      "verification_status": "matched_to_local_notes"
+    },
+    {
+      "fact_id": "F007",
+      "claim": "Cybercrime complaints can be submitted through the government portal.",
+      "source_id": "S003",
+      "source_url": "https://cybercrime.gov.in/",
+      "evidence": "Cybercrime complaints can be submitted through the government portal.",
+      "topic": "official_reporting",
+      "verification_status": "matched_to_local_notes"
+    },
+    {
+      "fact_id": "F008",
+      "claim": "The national helpline 1930 supports reporting of cyber financial fraud.",
+      "source_id": "S003",
+      "source_url": "https://cybercrime.gov.in/",
+      "evidence": "The national helpline 1930 supports reporting of cyber financial fraud.",
+      "topic": "official_reporting",
+      "verification_status": "matched_to_local_notes"
+    }
+  ],
+  "rejected_count": 0,
+  "rejected": []
+}

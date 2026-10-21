@@ -1,0 +1,83 @@
+{
+  "title": "Spotting Fake Internships & Digital Arrest Scams",
+  "duration_s": 48,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_s": 0,
+      "end_s": 3,
+      "voiceover": "Got an internship offer? Pause and think first.",
+      "visual_intent": "Phone showing an alarming internship message",
+      "fact_ids": []
+    },
+    {
+      "scene_id": 2,
+      "start_s": 3,
+      "end_s": 12,
+      "voiceover": "They claim you can earn ₹50,000 a month after paying a ₹5,000 registration fee and downloading special software.",
+      "visual_intent": "Fictional job offer demanding a fee",
+      "fact_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    {
+      "scene_id": 3,
+      "start_s": 12,
+      "end_s": 21,
+      "voiceover": "A video call from a 'police officer' threatens a digital arrest if you don't submit your credentials immediately.",
+      "visual_intent": "Illustrated threatening video call; no real faces",
+      "fact_ids": [
+        "F003",
+        "F004"
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_s": 21,
+      "end_s": 31,
+      "voiceover": "Never share OTPs, passwords, or bank details with unknown callers; always verify the source using official contact details you find yourself.",
+      "visual_intent": "Student independently verifying a message",
+      "fact_ids": [
+        "F005",
+        "F006"
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_s": 31,
+      "end_s": 40,
+      "voiceover": "Report financial fraud at cybercrime.gov.in or call the national helpline 1930 for help.",
+      "visual_intent": "Official reporting portal and financial fraud helpline",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_s": 40,
+      "end_s": 44,
+      "voiceover": "Stay safe, stay smart, stay ahead today.",
+      "visual_intent": "Simple confident cyber-safety slogan",
+      "fact_ids": []
+    },
+    {
+      "scene_id": 7,
+      "start_s": 44,
+      "end_s": 48,
+      "voiceover": "",
+      "visual_intent": "AI disclosure and official cybercrime portal",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ]
+    }
+  ],
+  "call_to_action": "Report cybercrime at cybercrime.gov.in; call 1930 for financial cyber fraud.",
+  "word_count": 85,
+  "generation_mode": "llm",
+  "grounding_level": "local_source_notes",
+  "qa_status": "draft_requires_fact_and_audio_review",
+  "notes": "Fact IDs identify intended evidence, not independently verified claim entailment."
+}

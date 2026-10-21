@@ -1,0 +1,43 @@
+{
+  "title": "Spotting Fake Internships & Digital Arrest Scams",
+  "audience": "College Students",
+  "duration_s": 48,
+  "objectives": [
+    "Identify red flags in internship/job offers that require registration fees",
+    "Recognize digital arrest intimidation tactics",
+    "Understand the importance of independent verification before sharing personal info",
+    "Know how to report suspected cybercrime through official channels"
+  ],
+  "stages": [
+    {
+      "agent": "Researcher",
+      "task": "Gather credible sources on fake internship scams and digital arrest intimidation, ensuring no fabricated statistics or contact details are used."
+    },
+    {
+      "agent": "Scriptwriter",
+      "task": "Draft a clear, practical, calm narrative that warns about suspicious registration fees, digital arrest intimidation, independent verification, and official reporting guidance."
+    },
+    {
+      "agent": "Storyboarder",
+      "task": "Create visual sequences that illustrate red flag signs, verification steps, and safe reporting actions without using fear-based imagery or implying fictional examples are real cases."
+    },
+    {
+      "agent": "Asset Generator",
+      "task": "Produce graphics and animations that depict warning signs, verification tools, and official reporting channels, avoiding any fabricated data."
+    },
+    {
+      "agent": "Editor",
+      "task": "Assemble the video ensuring pacing fits 48 seconds, tone remains calm, and all content aligns with the objectives and must_include points."
+    },
+    {
+      "agent": "Critic",
+      "task": "Review the final reel for compliance with safety guidelines, ensuring no victim-blaming, no fabricated statistics, and that the CTA clearly states to verify independently and report through official channels."
+    }
+  ],
+  "safety_checks": [
+    "Verify legitimacy of any job/internship offer through official company channels or reputable job boards",
+    "Do not share OTPs, passwords, or other credentials in response to unsolicited requests",
+    "Report suspicious offers or intimidation messages to campus IT or local law enforcement via official reporting channels",
+    "Ensure all content is factual and does not present fictional scenarios as real cases"
+  ]
+}

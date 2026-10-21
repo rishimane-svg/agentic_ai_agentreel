@@ -1,0 +1,147 @@
+{
+  "title": "Spotting Fake Internships & Digital Arrest Scams",
+  "duration_s": 59,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "style": "Modern illustrated cyber-safety awareness",
+  "generation_mode": "human_edited_rule_based_storyboard",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_s": 0,
+      "end_s": 6,
+      "duration_s": 6,
+      "voiceover": "Two cyber scams every student should know.",
+      "visual_description": "Two incoming alerts: internship offer and suspicious official-looking call",
+      "on_screen_text": "TWO SCAMS. ONE SMART RESPONSE.",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 2,
+      "start_s": 6,
+      "end_s": 17,
+      "duration_s": 11,
+      "voiceover": "Your dream internship promises great pay, but demands a registration fee. That's a warning sign.",
+      "visual_description": "Fictional recruiter chat shows attractive job offer, then fee and urgency warning",
+      "on_screen_text": "THE FAKE INTERNSHIP TRAP",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F001",
+        "F002"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ],
+      "on_screen_disclaimer": "Fictional example"
+    },
+    {
+      "scene_id": 3,
+      "start_s": 17,
+      "end_s": 29,
+      "duration_s": 12,
+      "voiceover": "Another caller claims to be police. They threaten a so-called digital arrest and demand your details. An official-looking call alone proves nothing.",
+      "visual_description": "Fictional video call with generic anonymous avatar and intimidation demand",
+      "on_screen_text": "THE DIGITAL ARREST TRAP",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F003",
+        "F004"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_s": 29,
+      "end_s": 39,
+      "duration_s": 10,
+      "voiceover": "Scammers use pressure. Never share OTPs or passwords. Always verify through official sources.",
+      "visual_description": "Two scams point to the same pressure technique, then a safety checklist",
+      "on_screen_text": "WHAT BOTH SCAMS SHARE",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F005",
+        "F006"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_s": 39,
+      "end_s": 50,
+      "duration_s": 11,
+      "voiceover": "Report suspected cybercrime at cybercrime.gov.in. For financial cyber fraud, call 1930 promptly.",
+      "visual_description": "Separate high-contrast website reporting card and financial-fraud helpline card",
+      "on_screen_text": "KNOW WHERE TO REPORT",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_s": 50,
+      "end_s": 55,
+      "duration_s": 5,
+      "voiceover": "Take a moment. Verify before you trust.",
+      "visual_description": "Clear closing shield and concise memorable verification message",
+      "on_screen_text": "THINK BEFORE YOU TRUST",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 7,
+      "start_s": 55,
+      "end_s": 59,
+      "duration_s": 4,
+      "voiceover": "",
+      "visual_description": "Minimal end card with reporting information and exact lab AI disclosure",
+      "on_screen_text": "SCAMSHIELD: STAY SAFE ONLINE",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ],
+      "disclosure_required": true
+    }
+  ],
+  "status": "draft_requires_visual_and_audio_review"
+}

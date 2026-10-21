@@ -1,0 +1,18 @@
+id: A05
+category: Campus Safety & Wellbeing
+topic: Cyber safety - fake internship/job offers and digital arrest scams
+audience: college students
+format: video_9x16
+duration_s: 48
+tone: clear, practical, calm
+language: English
+must_include:
+  - suspicious job or internship registration fee warning
+  - digital arrest intimidation warning
+  - independent verification and do not share OTPs or credentials
+  - official reporting guidance subject to researcher verification
+must_avoid:
+  - fabricated statistics or contact details
+  - victim-blaming or fear-based imagery
+  - implying invented examples are real cases
+cta: Verify independently and report suspected cybercrime through official channels

@@ -1,0 +1,147 @@
+{
+  "title": "Spotting Fake Internships & Digital Arrest Scams",
+  "duration_s": 48,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "style": "Modern illustrated cyber-safety awareness",
+  "generation_mode": "human_edited_rule_based_storyboard",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_s": 0,
+      "end_s": 3,
+      "duration_s": 3,
+      "voiceover": "Fake internship?",
+      "visual_description": "Phone showing a fictional internship notification and a caution badge",
+      "on_screen_text": "FAKE INTERNSHIP?",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 2,
+      "start_s": 3,
+      "end_s": 12,
+      "duration_s": 9,
+      "voiceover": "Easy money, but an upfront registration fee? Watch out. That's a scam warning sign.",
+      "visual_description": "Fictional recruiter chat showing a high-paying job offer, upfront registration fee and urgent payment request",
+      "on_screen_text": "SPOT THE RED FLAGS",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F001",
+        "F002"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ],
+      "on_screen_disclaimer": "Fictional example"
+    },
+    {
+      "scene_id": 3,
+      "start_s": 12,
+      "end_s": 21,
+      "duration_s": 9,
+      "voiceover": "Then a caller posing as a police officer threatens a so-called digital arrest and demands your personal details.",
+      "visual_description": "Mock video call from a self-declared police officer, anonymous silhouette, suspicious demand and warning signals",
+      "on_screen_text": "DIGITAL ARREST SCAM",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F003",
+        "F004"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_s": 21,
+      "end_s": 31,
+      "duration_s": 10,
+      "voiceover": "Never share OTPs, passwords or bank details. Verify callers through official channels.",
+      "visual_description": "Split comparison: suspicious message versus independent verification through an official website",
+      "on_screen_text": "PROTECT YOUR DETAILS",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F005",
+        "F006"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_s": 31,
+      "end_s": 40,
+      "duration_s": 9,
+      "voiceover": "Report at cybercrime.gov.in. For financial fraud, call 1930.",
+      "visual_description": "Reporting action card for cybercrime.gov.in and 1930 specifically for financial cyber fraud",
+      "on_screen_text": "REPORT THROUGH OFFICIAL CHANNELS",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_s": 40,
+      "end_s": 44,
+      "duration_s": 4,
+      "voiceover": "Pause. Verify.",
+      "visual_description": "Three bold action cards: pause, verify, report",
+      "on_screen_text": "PAUSE. VERIFY. REPORT.",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 7,
+      "start_s": 44,
+      "end_s": 48,
+      "duration_s": 4,
+      "voiceover": "",
+      "visual_description": "Clear end card with cybercrime.gov.in, financial cyber fraud helpline, and mandatory AI-agent disclosure",
+      "on_screen_text": "STAY SAFE ONLINE",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ],
+      "disclosure_required": true
+    }
+  ],
+  "status": "draft_requires_visual_and_audio_review"
+}

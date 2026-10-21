@@ -1,0 +1,85 @@
+{
+  "title": "Spotting Fake Internships & Digital Arrest Scams",
+  "duration_s": 48,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_s": 0,
+      "end_s": 3,
+      "voiceover": "Fake internship?",
+      "visual_intent": "Phone showing a fictional internship notification and a caution badge",
+      "fact_ids": []
+    },
+    {
+      "scene_id": 2,
+      "start_s": 3,
+      "end_s": 12,
+      "voiceover": "A job offer promises easy money, but demands a registration fee upfront. That is a warning sign. Always verify the recruiter.",
+      "visual_intent": "Fictional recruiter chat showing a high-paying job offer, upfront registration fee and urgent payment request",
+      "fact_ids": [
+        "F001",
+        "F002"
+      ]
+    },
+    {
+      "scene_id": 3,
+      "start_s": 12,
+      "end_s": 21,
+      "voiceover": "Then a caller posing as a police officer threatens a so-called digital arrest and demands your personal details.",
+      "visual_intent": "Mock video call from a self-declared police officer, anonymous silhouette, suspicious demand and warning signals",
+      "fact_ids": [
+        "F003",
+        "F004"
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_s": 21,
+      "end_s": 31,
+      "voiceover": "Never share OTPs, passwords or bank details. Verify suspicious callers using contact details from official websites.",
+      "visual_intent": "Split comparison: suspicious message versus independent verification through an official website",
+      "fact_ids": [
+        "F005",
+        "F006"
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_s": 31,
+      "end_s": 40,
+      "voiceover": "Report suspected cybercrime at cybercrime.gov.in. For financial cyber fraud, call 1930 promptly.",
+      "visual_intent": "Reporting action card for cybercrime.gov.in and 1930 specifically for financial cyber fraud",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_s": 40,
+      "end_s": 44,
+      "voiceover": "Pause. Verify. Report.",
+      "visual_intent": "Three bold action cards: pause, verify, report",
+      "fact_ids": []
+    },
+    {
+      "scene_id": 7,
+      "start_s": 44,
+      "end_s": 48,
+      "voiceover": "",
+      "visual_intent": "Clear end card with cybercrime.gov.in, financial cyber fraud helpline, and mandatory AI-agent disclosure",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ]
+    }
+  ],
+  "call_to_action": "Report cybercrime at cybercrime.gov.in; call 1930 for financial cyber fraud.",
+  "word_count": 72,
+  "generation_mode": "human_edited_from_llm_draft",
+  "grounding_level": "local_source_notes",
+  "qa_status": "requires_factual_review_and_new_audio_timing",
+  "notes": "Fact IDs identify intended evidence, not independently verified claim entailment.",
+  "timing_revision": "Human-edited scenes 1, 4 and 6 for narration timing",
+  "revision_note": "Polished second-cut narration; not a new model-generated script. Values in mock offers are fictional."
+}

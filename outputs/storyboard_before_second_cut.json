@@ -1,0 +1,147 @@
+{
+  "title": "Spotting Fake Internships & Digital Arrest Scams",
+  "duration_s": 48,
+  "format": "9:16",
+  "resolution": "1080x1920",
+  "style": "Modern illustrated cyber-safety awareness",
+  "generation_mode": "rule_based_storyboard",
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_s": 0,
+      "end_s": 3,
+      "duration_s": 3,
+      "voiceover": "Fake internship?",
+      "visual_description": "Illustrated student checking an internship message on a phone",
+      "on_screen_text": "Internship offer? Think first.",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 2,
+      "start_s": 3,
+      "end_s": 12,
+      "duration_s": 9,
+      "voiceover": "They claim you can earn ₹50,000 a month after paying a ₹5,000 registration fee and downloading special software.",
+      "visual_description": "Fictional internship offer interface showing upfront fees",
+      "on_screen_text": "RED FLAG: Upfront fees",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F001",
+        "F002"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ],
+      "on_screen_disclaimer": "Fictional scam example"
+    },
+    {
+      "scene_id": 3,
+      "start_s": 12,
+      "end_s": 21,
+      "duration_s": 9,
+      "voiceover": "A video call from a 'police officer' threatens a digital arrest if you don't submit your credentials immediately.",
+      "visual_description": "Abstract video call interface with warning symbols; no real faces",
+      "on_screen_text": "Digital arrest scam alert",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F003",
+        "F004"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 4,
+      "start_s": 21,
+      "end_s": 31,
+      "duration_s": 10,
+      "voiceover": "Never share OTPs, passwords or bank details. Verify suspicious callers using official contact information.",
+      "visual_description": "Student verifying a company's identity independently",
+      "on_screen_text": "VERIFY. NEVER SHARE OTPs.",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F005",
+        "F006"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 5,
+      "start_s": 31,
+      "end_s": 40,
+      "duration_s": 9,
+      "voiceover": "Report financial fraud at cybercrime.gov.in or call the national helpline 1930 for help.",
+      "visual_description": "Clean graphic showing the official cybercrime portal and financial fraud helpline",
+      "on_screen_text": "cybercrime.gov.in | Financial fraud: 1930",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 6,
+      "start_s": 40,
+      "end_s": 44,
+      "duration_s": 4,
+      "voiceover": "Stay safe. Stay smart.",
+      "visual_description": "Confident student with a digital shield illustration",
+      "on_screen_text": "Stay safe. Stay smart.",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ]
+    },
+    {
+      "scene_id": 7,
+      "start_s": 44,
+      "end_s": 48,
+      "duration_s": 4,
+      "voiceover": "",
+      "visual_description": "Minimal end card with reporting details and AI disclosure",
+      "on_screen_text": "Created with AI agents — LY Agentic AI Lab",
+      "asset_type": "illustration_or_graphic",
+      "animation": "gentle_zoom_or_fade",
+      "fact_ids": [
+        "F007",
+        "F008"
+      ],
+      "safety_notes": [
+        "Use fictional illustrations, not real people's likenesses",
+        "Do not present fictional scam examples as real incidents",
+        "Do not invent statistics or reporting contacts"
+      ],
+      "disclosure_required": true
+    }
+  ],
+  "status": "draft_requires_visual_review"
+}

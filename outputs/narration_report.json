@@ -1,0 +1,79 @@
+{
+  "voice": "en-IN-NeerjaNeural",
+  "rate": "+0%",
+  "source_script": "outputs/script.json",
+  "narrated_scenes": 6,
+  "all_clips_fit": true,
+  "scenes": [
+    {
+      "scene_id": 1,
+      "start_s": 0,
+      "end_s": 6,
+      "slot_s": 6.0,
+      "voiceover": "Two cyber scams every student should know.",
+      "audio_file": "assets/audio/scene_01.mp3",
+      "audio_duration_s": 3.552,
+      "fits_slot": true
+    },
+    {
+      "scene_id": 2,
+      "start_s": 6,
+      "end_s": 17,
+      "slot_s": 11.0,
+      "voiceover": "Your dream internship promises great pay, but demands a registration fee. That's a warning sign.",
+      "audio_file": "assets/audio/scene_02.mp3",
+      "audio_duration_s": 7.944,
+      "fits_slot": true
+    },
+    {
+      "scene_id": 3,
+      "start_s": 17,
+      "end_s": 29,
+      "slot_s": 12.0,
+      "voiceover": "Another caller claims to be police. They threaten a so-called digital arrest and demand your details. An official-looking call alone proves nothing.",
+      "audio_file": "assets/audio/scene_03.mp3",
+      "audio_duration_s": 11.448,
+      "fits_slot": true
+    },
+    {
+      "scene_id": 4,
+      "start_s": 29,
+      "end_s": 39,
+      "slot_s": 10.0,
+      "voiceover": "Scammers use pressure. Never share OTPs or passwords. Always verify through official sources.",
+      "audio_file": "assets/audio/scene_04.mp3",
+      "audio_duration_s": 9.384,
+      "fits_slot": true
+    },
+    {
+      "scene_id": 5,
+      "start_s": 39,
+      "end_s": 50,
+      "slot_s": 11.0,
+      "voiceover": "Report suspected cybercrime at cybercrime.gov.in. For financial cyber fraud, call 1930 promptly.",
+      "audio_file": "assets/audio/scene_05.mp3",
+      "audio_duration_s": 10.512,
+      "fits_slot": true
+    },
+    {
+      "scene_id": 6,
+      "start_s": 50,
+      "end_s": 55,
+      "slot_s": 5.0,
+      "voiceover": "Take a moment. Verify before you trust.",
+      "audio_file": "assets/audio/scene_06.mp3",
+      "audio_duration_s": 4.632,
+      "fits_slot": true
+    },
+    {
+      "scene_id": 7,
+      "start_s": 55,
+      "end_s": 59,
+      "slot_s": 4.0,
+      "voiceover": "",
+      "audio_file": null,
+      "audio_duration_s": 0.0,
+      "fits_slot": true
+    }
+  ]
+}

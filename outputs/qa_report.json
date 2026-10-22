@@ -1,0 +1,189 @@
+{
+  "generated_utc": "2026-10-22T16:09:32.109160+00:00",
+  "video": "/Users/rishimane/Desktop/scamshield_phase1/outputs/scamshield_with_college_logo.mp4",
+  "subtitle_file": "/Users/rishimane/Desktop/scamshield_phase1/outputs/scamshield_final_polish.srt",
+  "overall_status": "FAIL",
+  "counts": {
+    "PASS": 14,
+    "FAIL": 1,
+    "REVIEW": 10
+  },
+  "checks": [
+    {
+      "id": "duration_30_60",
+      "status": "PASS",
+      "detail": "53.261 seconds",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "resolution_9_16",
+      "status": "PASS",
+      "detail": "1080x1920",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "constant_framerate_25_or_30",
+      "status": "PASS",
+      "detail": "25.000 fps; check CFR with ffprobe when needed",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "h264_high",
+      "status": "PASS",
+      "detail": "codec=h264 profile=High",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "pixel_format",
+      "status": "PASS",
+      "detail": "pixel_format=yuv420p",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "aac_stereo_48khz",
+      "status": "PASS",
+      "detail": "aac, 2ch, 48000Hz",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "file_under_100mb",
+      "status": "PASS",
+      "detail": "1.54 MB",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "srt_nonempty",
+      "status": "PASS",
+      "detail": "13 caption cues",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "srt_cue_bounds",
+      "status": "PASS",
+      "detail": "invalid cues: []",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "srt_cue_overlap",
+      "status": "PASS",
+      "detail": "overlapping cue indices: []",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "subtitle_appearance_and_alignment",
+      "status": "REVIEW",
+      "detail": "SRT timestamps cannot prove speech-level synchronization, minimum visual font size, or burned-in captions",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "script_has_scenes",
+      "status": "PASS",
+      "detail": "7 scenes",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "reporting_portal_in_script",
+      "status": "PASS",
+      "detail": "Script text match only—not an independent official-source check",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "1930_in_script",
+      "status": "PASS",
+      "detail": "Script text match only; 1930 refers to cyber financial fraud helpline",
+      "method": "machine",
+      "severity": "major"
+    },
+    {
+      "id": "fact_sources",
+      "status": "REVIEW",
+      "detail": "facts.json present; compare each factual claim and helpline to original official documents; matching local notes is not independent verification",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "official_1930_and_portal",
+      "status": "REVIEW",
+      "detail": "Official government sources confirm cybercrime.gov.in and 1930 (financial cyber fraud). A human must check they are rendered correctly in the video.",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "asset_manifest",
+      "status": "REVIEW",
+      "detail": "7 manifest rows; manually inspect asset origin, licenses and official logo authorization",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "logo",
+      "status": "REVIEW",
+      "detail": "College logo must be supplied by the institution, present and undistorted on the end card",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "disclosure",
+      "status": "REVIEW",
+      "detail": "End card must show exactly: Created with AI agents — LY Agentic AI Lab",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "safe_zones",
+      "status": "REVIEW",
+      "detail": "All important text should avoid top 250px and bottom 350px, per assignment",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "no_real_likeness",
+      "status": "REVIEW",
+      "detail": "No synthetic real student, faculty, or public-figure face/voice",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "mobile_readability",
+      "status": "REVIEW",
+      "detail": "Check captions, contrast, clipped text, warning labels and contact detail on a phone",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "human_safety_approval",
+      "status": "REVIEW",
+      "detail": "Category A safety brief requires mandatory human review before final export",
+      "method": "human",
+      "severity": "major"
+    },
+    {
+      "id": "integrated_loudness",
+      "status": "FAIL",
+      "detail": "-21.0 LUFS (assignment target about -14 LUFS)",
+      "method": "machine",
+      "severity": "minor"
+    },
+    {
+      "id": "no_audio_clipping",
+      "status": "PASS",
+      "detail": "true peak -7.7 dBFS",
+      "method": "machine",
+      "severity": "major"
+    }
+  ],
+  "note": "Automated tests do not verify visual claims or constitute mandatory Category A human approval. Critic is assessment only; no automatic repair loop implemented."
+}

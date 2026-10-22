@@ -44,16 +44,34 @@ def pill(d, text, box, fill=PANEL, ink=WHITE, size=32):
     d.text(((box[0]+box[2])/2, (box[1]+box[3])/2), text, anchor='mm', font=font(size,True), fill=ink)
 
 
+def text_width(d, value, f):
+    bb=d.textbbox((0,0),value,font=f)
+    return bb[2]-bb[0]
+
+
+def fit_text(d, value, max_width, start=60, minimum=25, bold=True):
+    """Choose the largest usable font that fits the allotted panel width."""
+    for size in range(start, minimum-1, -1):
+        candidate=font(size,bold)
+        if text_width(d,value,candidate)<=max_width:
+            return candidate
+    raise ValueError('Text cannot fit safe frame: '+value)
+
+
+def safe_text(d, xy, value, width, size, fill, anchor=None, minimum=25):
+    f=fit_text(d,value,width,size,minimum,True)
+    d.text(xy,value,font=f,fill=fill,anchor=anchor)
+
 def base(i, heading):
     im=Image.new('RGB',(W,H),BG)
     d=ImageDraw.Draw(im)
     d.ellipse((-330,-420,560,470),fill=(15,46,64))
     d.ellipse((670,1340,1480,2150),fill=(15,47,62))
-    rounded(d,(64,148,1016,244),fill=SURFACE,radius=27)
-    d.text((92,194),'SCAMSHIELD  /  STUDENT CYBER SAFETY',font=font(34,True),fill=TEAL,anchor='lm')
-    d.text((78,365), heading,font=font(65,True),fill=WHITE)
-    d.line((80,455,1000,455),fill=TEAL,width=6)
-    d.text((80,1660),'ILLUSTRATIVE SCENARIOS  •  CYBER AWARENESS',font=font(28,True),fill=MUTED)
+    rounded(d,(64,262,1016,334),fill=SURFACE,radius=23)
+    safe_text(d,(92,297),'SCAMSHIELD  /  STUDENT CYBER SAFETY',880,34,TEAL,anchor='lm')
+    safe_text(d,(78,389),heading,924,65,WHITE)
+    d.line((80,470,1000,470),fill=TEAL,width=6)
+    # Avoid the bottom 350px platform overlay safe zone (y >= 1570).
     return im,d
 
 
@@ -103,8 +121,8 @@ def scene3(d):
 def scene4(d):
     rounded(d,(70,510,525,1380),fill=(58,43,63),radius=35)
     rounded(d,(555,510,1010,1380),fill=(23,76,76),radius=35)
-    d.text((297,586),'SUSPICIOUS',anchor='mm',font=font(35,True),fill=AMBER)
-    d.text((782,586),'VERIFY',anchor='mm',font=font(39,True),fill=TEAL)
+    safe_text(d,(297,586),'SUSPICIOUS',390,35,AMBER,anchor='mm')
+    safe_text(d,(782,586),'VERIFY',390,39,TEAL,anchor='mm')
     for y,t in [(755,'Share OTP?'),(875,'Send password?'),(995,'Pay immediately?')]:
         d.text((100,y),t,font=font(34,True),fill=WHITE)
         d.text((493,y),'X',font=font(36,True),fill=RED,anchor='ra')

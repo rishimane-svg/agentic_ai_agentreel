@@ -14,3 +14,11 @@ No secret files were read. A generated prompt or changed code should not be desc
 Review API call sites and any dynamically built prompts; the AST extractor is intentionally conservative.
 Do not claim these excerpts are complete templates or prompt versions without checking the actual code.
 Where the written assignment requests versioned templates, save verified static templates separately and update agents to load them only after testing.
+
+## Additional verified records
+
+- `scriptwriter_v1.md` — Source-level prompt construction from
+  `agents/scriptwriter.py`; not necessarily the exact historical
+  request used for the approved reel.
+- `storyboarder_rule_based.md` — Documents that Storyboarder uses
+  deterministic Python logic without an LLM prompt.

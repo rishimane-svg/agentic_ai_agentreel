@@ -1,0 +1,21 @@
+digraph ScamShield {
+ graph [rankdir=TB, bgcolor="white", pad="0.32", nodesep="0.28", ranksep="0.45", fontname="DejaVu Sans"];
+ node [shape=box, style="rounded,filled", fillcolor="#EDF5FA", color="#26516D", fontname="DejaVu Sans", fontsize=12, margin="0.18,0.10"];
+ edge [color="#48718A", arrowsize=0.65];
+ brief [label="A05 brief\nbriefs/a05.yaml", fillcolor="#DBEBF4"];
+ planner [label="1  Planner (Groq)\nplan.json"];
+ research [label="2  Researcher (Groq + local notes)\nfacts.json"];
+ writer [label="3  Scriptwriter (Groq/fallback)\nscript.json"];
+ board [label="4  Storyboarder (rules)\nstoryboard.json"];
+ assets [label="5  Asset Generator (Pillow)\nimages + manifest"];
+ narr [label="6  Narrator (Edge-TTS)\nMP3 + timing report"];
+ edit [label="7  Editor (FFmpeg)\nMP4 + SRT"];
+ critic [label="8  Critic (rule checks)\nQA report: PASS / FAIL / REVIEW", fillcolor="#FFF0D9", color="#A96E29"];
+ human [label="Human review + separate approved\ncollege-logo end card", fillcolor="#FFEFE7", color="#9B574B"];
+ output [label="Approved demo video\nscamshield_with_college_logo.mp4", fillcolor="#DEF1E7", color="#36785B"];
+ brief -> planner -> research -> writer -> board -> assets -> narr -> edit -> critic;
+ critic -> human [label="review requested", fontsize=10];
+ human -> output;
+ notes [shape=note, fontsize=10, fillcolor="#F6F7F8", color="#89939B", label="NOTE: no automatic repair loop;\nfull-run not validated; source checks local-only"];
+ critic -> notes [style=dashed, arrowhead=none];
+}

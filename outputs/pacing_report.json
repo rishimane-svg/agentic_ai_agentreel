@@ -1,0 +1,56 @@
+{
+  "target_duration_s": 53.2,
+  "actual_duration_s": 53.261,
+  "method": "adaptive-to-TTS-file-duration; estimated caption timings, no forced alignment",
+  "scenes": [
+    {
+      "scene": 1,
+      "original_slot_s": 6.0,
+      "audio_s": 3.552,
+      "final_slot_s": 3.84,
+      "estimated_captions": 1
+    },
+    {
+      "scene": 2,
+      "original_slot_s": 11.0,
+      "audio_s": 7.944,
+      "final_slot_s": 8.24,
+      "estimated_captions": 3
+    },
+    {
+      "scene": 3,
+      "original_slot_s": 12.0,
+      "audio_s": 11.448,
+      "final_slot_s": 11.72,
+      "estimated_captions": 4
+    },
+    {
+      "scene": 4,
+      "original_slot_s": 10.0,
+      "audio_s": 9.384,
+      "final_slot_s": 9.68,
+      "estimated_captions": 2
+    },
+    {
+      "scene": 5,
+      "original_slot_s": 11.0,
+      "audio_s": 10.512,
+      "final_slot_s": 10.8,
+      "estimated_captions": 2
+    },
+    {
+      "scene": 6,
+      "original_slot_s": 5.0,
+      "audio_s": 4.632,
+      "final_slot_s": 4.92,
+      "estimated_captions": 1
+    },
+    {
+      "scene": 7,
+      "original_slot_s": 4.0,
+      "audio_s": 0.0,
+      "final_slot_s": 4.0,
+      "estimated_captions": 0
+    }
+  ]
+}

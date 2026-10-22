@@ -1,0 +1,70 @@
+{
+  "video": "outputs/scamshield_final_polish.mp4",
+  "checks": [
+    {
+      "check": "duration_30_to_60",
+      "pass": true,
+      "detail": "53.26s"
+    },
+    {
+      "check": "vertical_full_hd",
+      "pass": true,
+      "detail": "(1080, 1920)"
+    },
+    {
+      "check": "h264_yuv420p",
+      "pass": false,
+      "detail": "('h264', 'yuvj420p')"
+    },
+    {
+      "check": "aac_audio",
+      "pass": true,
+      "detail": "aac"
+    },
+    {
+      "check": "48khz_stereo",
+      "pass": true,
+      "detail": "('48000', 2)"
+    },
+    {
+      "check": "25_or_30_fps",
+      "pass": true,
+      "detail": "25.0"
+    },
+    {
+      "check": "size_under_100mb",
+      "pass": true,
+      "detail": "1.5 MB"
+    },
+    {
+      "check": "caption_file_present",
+      "pass": true,
+      "detail": "/Users/rishimane/Desktop/scamshield_phase1/outputs/scamshield_final_polish.srt"
+    },
+    {
+      "check": "script_reports_cybercrime_portal",
+      "pass": true,
+      "detail": "Text match only; source verification separate"
+    },
+    {
+      "check": "script_mentions_1930",
+      "pass": true,
+      "detail": "Text match only; source verification separate"
+    },
+    {
+      "check": "seven_scenes",
+      "pass": true,
+      "detail": "7"
+    }
+  ],
+  "manual_review_required": [
+    "safe-zone rendered visuals on mobile",
+    "caption synchronization (timing estimated, not forced-aligned)",
+    "official logo supplied and displayed unchanged",
+    "end-card AI disclosure readable",
+    "all scene claims trace to official source documents",
+    "sound loudness near -14 LUFS and no clipping",
+    "mandatory Category A human approval before submission"
+  ],
+  "scope_note": "Automated engineering checks only, NOT a full factual critic or human sign-off"
+}

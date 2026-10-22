@@ -1,0 +1,8 @@
+source_log,record_index,timestamp,run_id,stage,provider,model,input_tokens,output_tokens,cost_inr,elapsed_s,status,evidence_note
+run_log.jsonl,1,2026-10-15T18:27:23.995707+00:00,,Researcher,,openai/gpt-oss-20b,679,1858,,,,agent-authored log; provider invoice not independently verified
+run_log.jsonl,2,2026-10-15T18:36:19.144898+00:00,,Researcher,,openai/gpt-oss-20b,985,1554,,,,agent-authored log; provider invoice not independently verified
+run_log.jsonl,3,2026-10-15T18:40:28.862136+00:00,,Researcher,,openai/gpt-oss-20b,985,1446,,,,agent-authored log; provider invoice not independently verified
+run_log.jsonl,4,2026-10-15T18:58:23.147830+00:00,,Scriptwriter,,local_template,434,2048,,,local_fallback,agent-authored log; provider invoice not independently verified
+run_log.jsonl,5,2026-10-17T06:15:04.181437+00:00,,Scriptwriter,,local_template,434,2048,,,local_fallback,agent-authored log; provider invoice not independently verified
+run_log.jsonl,6,2026-10-17T08:12:52.571901+00:00,,Scriptwriter,,openai/gpt-oss-20b,434,1281,,,llm,agent-authored log; provider invoice not independently verified
+orchestrator_run_log.jsonl,1,2026-10-22T15:39:41.991165+00:00,scamshield-20261022T153941Z-a4765ee5,critic,,,,,,0.46,qa_failed,orchestration stage timing only; NOT an independent model call
